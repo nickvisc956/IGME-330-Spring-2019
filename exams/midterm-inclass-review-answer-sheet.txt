@@ -1,38 +1,52 @@
 **I. Variable Scope**
 
-1) 
-2) 
-3)
-4)
-5)
-6)
-7)
-8)
-9)
-10)
-11)
-12)
+1) B
+2) C
+3) E
+4) E
+5) A
+6) E C
+7) B
+8) C
+9) A C
+10) A
+11) B
+12) A
 
 **II. Immutability**
 
-1)
-2)
-3)
+1) B
+2) B A
+3) B A
 
 **III. Writing JavaScript Functions**
 
-1)
-2)
-
+1) function doubleIt(getNum)
+    {
+      return getNum*2;
+    }
+2) var doubIt = (getNum) => {
+      return getNum*2;
+    }
 **IV. Object Literals**
 
-1)
-2)
-3)
-4)
-5)
+1) B
+2) C B
+3) C 
+4) A B
+5) D
 
 **V. Classes**
 
-1)
-2)
+1) class Person {
+      constructor (age, name)
+      {
+        this.age = age;
+        this.name = name;
+      }
+      Reincarnate()
+      {
+        this.age = 0;
+      }
+    }
+2) let p1 = new Person(18, "Ace Coder");
